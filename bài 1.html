@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap-diem-sinh-vien</title>
+</head>
+<body>
+    <script>
+    let vatly = prompt('điểm vật lý: ');
+    let hoahoc = prompt('điểm hóa học: ');
+    let sinhhoc = prompt('điểm sinh học: ');
+
+    let a = parseInt(vatly);
+    let b = parseInt(hoahoc);
+    let c = parseInt(sinhhoc);
+
+    let trungbinh = (a + b + c) / 3;
+    let diemtong = (a + b + c);
+
+    alert("điểm trung bình là: " + trungbinh);
+    alert("điểm tổng là: " + diemtong);
+</script>
+</body>
+</html>
